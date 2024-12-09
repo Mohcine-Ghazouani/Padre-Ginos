@@ -1,4 +1,3 @@
-
 const Pizza = (props) => {
   return (
     <div className="pizza">
