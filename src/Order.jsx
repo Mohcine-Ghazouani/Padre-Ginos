@@ -33,6 +33,9 @@ export default function Order() {
                   name="pizza-size"
                   value="S"
                   id="pizza-s"
+                  onChange={(e) => {
+                    setpizzaSize(e.target.value);
+                  }}
                 />
                 <label htmlFor="pizza-s">Small</label>
               </span>
@@ -43,6 +46,9 @@ export default function Order() {
                   name="pizza-size"
                   value="M"
                   id="pizza-m"
+                  onChange={(e) => {
+                    setpizzaSize(e.target.value);
+                  }}
                 />
                 <label htmlFor="pizza-m">Medium</label>
               </span>
@@ -53,6 +59,9 @@ export default function Order() {
                   name="pizza-size"
                   value="L"
                   id="pizza-l"
+                  onChange={(e) => {
+                    setpizzaSize(e.target.value);
+                  }}
                 />
                 <label htmlFor="pizza-l">Large</label>
               </span>
