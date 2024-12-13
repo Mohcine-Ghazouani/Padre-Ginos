@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import Order from "./Order";
+import Order from "./order";
 
 const App = () => {
   return (
