@@ -16,7 +16,7 @@ export default [
     },
   },
   reactPlugin.configs.flat["jsx-runtime"],
-  ...plugingQuery.configs["flat/recommended"],
+  ...pluginQuery.configs["flat/recommended"],
   {
     files: ["**/*.js"],
     languageOptions: {
